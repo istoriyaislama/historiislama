@@ -84,7 +84,7 @@ body {
 	width: 80%;
 	margin-left: 10%;
 }
-@media (min-width: 900px){
+@media (min-height: 900px){
 	#wrapper #articles article{
 		float: left;
 		width: 31.3%;
@@ -96,7 +96,7 @@ body {
 		min-height: 400px;
 	}
 	}
-@media (min-width: 420px) and (max-width: 899px){
+@media (min-height: 420px) and (max-height: 899px){
 #wrapper #articles article{
 	float: left;
 	width: 96%;
@@ -110,7 +110,7 @@ body {
 	margin-bottom: 10px;
 }
 }
-@media (max-width: 419px){
+@media (max-height: 419px){
 	#wrapper #articles article{
 		float: left;
 		width: 96%;
