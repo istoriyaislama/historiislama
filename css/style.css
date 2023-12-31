@@ -84,7 +84,7 @@ body {
 	width: 80%;
 	margin-left: 10%;
 }
-@media (min-height: 900px){
+@media (min-width: 900px){
 	#wrapper #articles article{
 		float: left;
 		width: 31.3%;
