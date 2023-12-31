@@ -228,7 +228,7 @@ body {
 	border-radius: 0px;
 	float:left;
 }
-@media (min-height: 900px){
+@media (min-width: 900px){
 .back-to-top {
     background: #a5a5a500;
     border-radius: 50%;
