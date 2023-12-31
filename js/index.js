@@ -22,16 +22,8 @@ function z(){
     let text = "Имам аш-Шафи'и (да помилует его Аллах), говорил:<br><br>  من قرأ التاريخ زاد عقله <br><br>– “Тот, кто читает историю, совершенствует свой разум”.<br><br>Аль И’ляну бит Тавбих 13.";
     document.getElementById("textp").innerHTML = text;
 }
-// preload
-document.body.onload = function(){
-    setTimeout(function(){
-        let pr = document.getElementById("a100js");
-        if(!pr.classList.contains("done")){
-            pr.classList.add("done");;
-        }
-    }, 1000)
-}
-//kugk
+
+//img
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 50,
     navigation: {
