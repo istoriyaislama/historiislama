@@ -108,7 +108,7 @@ body {
 	min-height: 400px;
 }
 }
-@media (max-width: 699px){
+@media (max-width: 419px){
 	#wrapper #articles article{
 		float: left;
 		width: 96%;
