@@ -11,12 +11,3 @@ $(window).scroll(function() { // Отслеживаем начало прокр�
         $('.back-to-top').removeClass('active');
     }
 });
-// preload
-document.body.onload = function(){
-    setTimeout(function(){
-        let pr = document.getElementById("a100js");
-        if(!pr.classList.contains("done")){
-            pr.classList.add("done");;
-        }
-    }, 1000)
-}
