@@ -96,7 +96,7 @@ body {
 		min-height: 400px;
 	}
 	}
-@media (min-width: 420px) and (max-width: 899зч){
+@media (min-width: 420px) and (max-width: 899px){
 #wrapper #articles article{
 	float: left;
 	width: 96%;
@@ -122,6 +122,14 @@ body {
 		margin-bottom: 10px;
 	}
 	}
+
+#wrapper #articles article h1{
+	width: 90%;
+	margin-left: 5%;
+	font-weight: normal;
+	font-size: 1.7em;
+}
+
 #wrapper #articles article h1{
 	width: 90%;
 	margin-left: 5%;
