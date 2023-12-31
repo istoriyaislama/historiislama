@@ -99,7 +99,7 @@ body {
 @media (min-width: 420px) and (max-width: 700){
 #wrapper #articles article{
 	float: left;
-	width: 31.3%;
+	width: 96%;
 	border: 1px solid silver;
 	box-sizing: border-box;
 	border-radius: 21px;
