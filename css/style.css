@@ -96,21 +96,19 @@ body {
 		min-height: 400px;
 	}
 	}
-@media (min-height: 420px) and (max-height: 700px){
+@media (min-width: 420px) and (max-width: 700){
 #wrapper #articles article{
 	float: left;
-	width: 96%;
+	width: 31.3%;
 	border: 1px solid silver;
 	box-sizing: border-box;
 	border-radius: 21px;
 	background-color: #fafafa52;
 	margin-right: 2%;
-	margin-top: 10px;
-	min-height: 200px;
-	margin-bottom: 10px;
+	min-height: 400px;
 }
 }
-@media (max-height: 419px){
+@media (max-width: 419px){
 	#wrapper #articles article{
 		float: left;
 		width: 96%;
@@ -124,14 +122,6 @@ body {
 		margin-bottom: 10px;
 	}
 	}
-
-#wrapper #articles article h1{
-	width: 90%;
-	margin-left: 5%;
-	font-weight: normal;
-	font-size: 1.7em;
-}
-
 #wrapper #articles article h1{
 	width: 90%;
 	margin-left: 5%;
@@ -228,7 +218,7 @@ body {
 	border-radius: 0px;
 	float:left;
 }
-@media (min-width: 900px){
+@media (min-height: 600px){
 .back-to-top {
     background: #a5a5a500;
     border-radius: 50%;
@@ -240,7 +230,7 @@ body {
     transition: 0.3s all;
 }
 }
-@media (max-height: 899px){
+@media (max-height: 599px){
 	.back-to-top {
 		background: #666666;
 		border-radius: 50% 50% 20% 20%;
@@ -260,6 +250,72 @@ body {
     bottom: 50px;
     transition: 0.3s all;
 }
+@media(min-width: 600px){
+.a100{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/fon.jpg");
+	z-index: 3;
+	transition: 1s all;
+	-moz-transition: 1s all;
+	-webkit-transition: 1s all;
+	-ms-transition: 1s all;
+	opacity: 1;
+	visibility: visible;
+	.b100{
+		width: 105px;
+		height: 105px;
+		border: 19px solid #000000c4;
+		border-radius: 50%;
+		border-top-color: #fafafa44;
+		position: absolute;
+		left: 50%;
+		top:  50%;
+		transform: translate(-50%, -50%);
+		animation: 4s spin infinite linear;
+	}
+	&.done{
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+}
+@media(max-width: 599px){
+	.a100{
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-image: url("../img/fon.jpg");
+		z-index: 3;
+		transition: 1s all;
+		-moz-transition: 1s all;
+		-webkit-transition: 1s all;
+		-ms-transition: 1s all;
+		opacity: 1;
+		visibility: visible;
+		.b100{
+			width: 35px;
+			height: 35px;
+			border: 10px solid #000000c4;
+			border-radius: 50%;
+			border-top-color: #fafafa44;
+			position: absolute;
+			left: 50%;
+			top:  50%;
+			transform: translate(-50%, -50%);
+			animation: 4s spin infinite linear;
+		}
+		&.done{
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+	}
 .kuran a{
 	padding: 5px 5px;
 	background-color: rgba(84, 165, 139, 0.712);
