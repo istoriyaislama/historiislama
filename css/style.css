@@ -105,7 +105,9 @@ body {
 	border-radius: 21px;
 	background-color: #fafafa52;
 	margin-right: 2%;
-	min-height: 400px;
+	margin-top: 10px;
+	min-height: 200px;
+	margin-bottom: 10px;
 }
 }
 @media (max-width: 419px){
