@@ -1,6 +1,6 @@
 //Button Up
 $('.back-to-top').click(function () {
-    $('body,html').animate({ scrollTop: 0}, 10000); // 800 - Скорость анимации
+    $('body,html').animate({ scrollTop: 0}, 1000); // 800 - Скорость анимации
 });
 
 $(window).scroll(function() { // Отслеживаем начало прокрутки
