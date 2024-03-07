@@ -313,6 +313,10 @@ body {
 	background-color: #5a8568;
 	color:#fff;
   }
+.rg{
+	float: right;
+    color: #000;
+}
 
 /*Animation*/
 @keyframes spin{
