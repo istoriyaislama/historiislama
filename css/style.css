@@ -225,7 +225,7 @@ body {
     position: fixed;
     bottom: -50px;
     padding: 10px 12px;
-    right: 1250px;
+    right: 50px;
     cursor: pointer;
     transition: 0.3s all;
 }
