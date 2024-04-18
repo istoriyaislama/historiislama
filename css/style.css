@@ -321,6 +321,13 @@ body {
 	float: right;
 	color:#000;
 }
+.text{
+	background-color: #f2f2f2a1;
+	border-radius: 21px;
+}
+#wrapper #articles .text p, h1{
+	margin: 20px;
+}
 
 /*Animation*/
 @keyframes spin{
