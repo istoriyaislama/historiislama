@@ -326,7 +326,8 @@ body {
 	border-radius: 21px;
 }
 #wrapper #articles .text p, h1{
-	margin: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*Animation*/
