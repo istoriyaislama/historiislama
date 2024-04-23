@@ -218,7 +218,7 @@ body {
 	border-radius: 0px;
 	float:left;
 }
-@media (min-height: 600px){
+@media (min-width: 600px){
 .back-to-top {
     background: #a5a5a500;
     border-radius: 50%;
@@ -230,7 +230,7 @@ body {
     transition: 0.3s all;
 }
 }
-@media (max-height: 599px){
+@media (max-width: 599px){
 	.back-to-top {
 		background: #666666;
 		border-radius: 50% 50% 20% 20%;
@@ -328,6 +328,39 @@ body {
 #wrapper #articles .text p, h1{
 	margin-left: 10px;
 	margin-right: 10px;
+}
+@media(min-width: 600px){
+	#block1 #block2 #read{
+		/*position: absolute;*/
+		text-align: center;
+		margin-left: 100px;
+	}
+	/*#block1 #block2 #read::before{
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+	}*/
+	/*#block1 #block2 #read #button{
+		display: inline-block;
+		vertical-align: middle;
+	}*/
+}
+@media(max-width: 599px){
+	#block1 #block2 #read{
+		position: absolute;
+		text-align: center;
+		font-size: 12px;
+		margin-left: 91px;
+	}
+	#block1 #block2 #read::before{
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#block1 #block2 #read #button{
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
 
 /*Animation*/
