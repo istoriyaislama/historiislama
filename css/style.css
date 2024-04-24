@@ -12,7 +12,7 @@ html{
 body {
 	width: 100%;
 	color: #333;
-	background-image: url(../img/fon.jpg);
+	background-image: url(../img/fon.jpg) fixed;
 	font-size: 1em;
 	font-family:Alegreya, sans-serif;
 	line-height: 135%;
